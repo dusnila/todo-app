@@ -7,6 +7,7 @@ import (
 	"github.com/dusnila/todo-app.git/pkg/handler"
 	"github.com/dusnila/todo-app.git/pkg/repository"
 	"github.com/dusnila/todo-app.git/pkg/service"
+	_ "github.com/lib/pq"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 	"github.com/subosito/gotenv"
